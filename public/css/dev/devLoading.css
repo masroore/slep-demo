@@ -1,0 +1,139 @@
+/* Estilos a cargar cuando el sidebar está cerrado*/
+.loading_closedsidebar {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 256px;
+	z-index: 100;
+  	width: 100vw;
+  	height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+	overflow: hidden;
+}
+
+.loading-content_closedsidebar {
+	position: absolute;
+	border: 16px solid #2c2c34; 
+	border-top: 16px solid #321fdb; 
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	bottom: 50%;
+	left: 50%;
+	animation: spin 2s linear infinite;
+	}
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+	
+/* Estilos a cargar cuando el sidebar está abierto*/
+.loading_opensidebar {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	z-index: 100;
+  	width: 100vw;
+  	height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+	overflow: hidden;
+}
+
+.loading-content_opensidebar {
+	position: absolute;
+	border: 16px solid #2c2c34; 
+	border-top: 16px solid #321fdb; 
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	bottom: 50%;
+	left: 50%;
+	animation: spin 2s linear infinite;
+	}
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+	
+/*Iconos del panel*/
+.cib-twitter{
+		color:#00acee;
+		font-size:200%;
+}
+.cib-youtube{
+		color:#c4302b;
+		font-size:200%;
+}
+.cib-google{
+		color:#4285F4;
+		font-size:200%;
+}
+.cib-facebook-f{
+		color:#3b5998;
+		font-size:200%;
+}
+.cib-instagram{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	font-size:200%;
+	-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cil-happy{
+	color:#00ee80;
+	font-size:200%;
+}
+.cil-meh{
+	color:#e1a82d;
+	font-size:200%;
+}
+.cil-frown{
+	color:#d16767;
+	font-size:200%;
+}
+.face-on-table{
+	font-size:120%;
+}
+
+/*Estilos para que los botones se queden arriba ;)*/
+.btnsOnTop{
+	
+background-color: #23242d !important;
+	
+border-color: transparent !important;
+	
+position: sticky !important;
+	
+top: 7.3em;
+	
+padding-top: 1.5em;
+	
+min-height: 5.5em;
+	
+z-index: 667;
+}
+.fltrOnTop{
+	background-color: #23242d !important;
+	
+border-color: transparent !important;
+	
+position: sticky !important;
+	
+top: 7.3em;
+	
+padding-top: 1.5em;
+	
+min-height: 5.5em;
+	
+z-index: 666;
+}
+
+/*Background del select*/
+#selectBusqueda,#selectBusquedaMedios{
+	background: #2e2f38;
+}
+

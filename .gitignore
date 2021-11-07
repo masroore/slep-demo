@@ -1,0 +1,17 @@
+/dist
+/node_modules
+/database/database.sqlite
+/storage/*.key
+/vendor
+package-lock.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+composer.phar
+.env
+/config/app.php
+
+# release
+/coreui-pro-laravel-admin-template*.zip

@@ -1,0 +1,172 @@
+
+  body{
+   text-align: center;
+   margin: 0px;
+   overflow:hidden;
+  }
+  .logo{
+   width: 80px;
+   margin-top: 20px
+  }
+  .pri{
+   font-size: 12px;
+   font-weight: 600;
+   color: #727272;
+  }
+  .sec{
+   font-size: 10px;
+   color: #9B9B9B;
+  }
+  p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  h4, h5{
+   margin-top: 8px;
+   margin-bottom: 8px;
+  }
+  .section{
+   display: flex;
+   justify-content: center;
+  }
+  .caluga{
+   margin: 8px;
+   border-radius: 4px;
+   text-align: left;
+  }
+  .cal1{
+   color: black;
+   height: 200px;
+   position: relative;
+   background-color: grey;
+  }
+  .cal1 .img-c{
+   object-fit: cover;
+   width: 100%;
+   margin-right: 2%;
+   height: 200px;
+   border-radius: 4px
+  }
+  .cal1 .cont-c{
+   margin: 4px;
+   padding: 8px;
+   border-radius: 4px;
+   position: absolute;
+   bottom: 0px;
+   background-color:  rgba(255,255,255,0.7)
+  }
+  .cal1 .cont-c h4,h5{ 
+      overflow:hidden; 
+    text-overflow:ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+  }
+  .cal2{
+   padding: 10px;
+   position: relative;
+   border: solid 1px #EDEDED;
+   display: flex;
+  justify-content: center;
+  }
+  .cal2 .cont-c{
+   width: 63%;
+   margin-left: 2%;
+  }
+  .cal2 .img-c{
+   object-fit: cover;
+   width: 33%;
+   margin-right: 2%;
+   height: 75px;
+   border-radius: 4px
+  }
+  .caluga span{
+   background-color: white;
+   border-radius: 16px;
+   border: solid 1px #EDEDED;
+   padding: 4px;
+   font-size: 10px;
+   color: #727272;
+  }
+  .br{
+   border-radius: 4px
+  }
+  /* grilla responsiva */
+
+  body {
+  background-color: white;
+  }
+
+  @media screen and (max-width: 992px) {
+   body {
+    background-color: white;
+    width: 100%;
+   }
+
+   .lyg{
+   	padding: 0px 10px
+   }
+  }
+
+  @media screen and (max-width: 600px) {
+   body {
+    background-color: white;
+   }
+
+   .section{
+    display: block;
+    justify-content: center;
+   }
+
+   .cont{
+    width: 100%
+   }
+
+   .sec2{
+    display: flex;
+    justify-content: center;
+   }
+
+   .cal2 .cont-c{
+    width: 69%;
+    margin-left: 1%;
+   }
+   .cal2 .img-c{
+    width: 28%;
+    margin-right: 2%;
+    height: 75px;
+    border-radius: 4px
+   }
+
+   .grafico ,.lluvia{
+    width: 97% !important;
+    margin: 1.5%;
+   }
+
+   .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  }
+
+  @media screen and (max-width: 400px) {
+    body {
+    background-color: olive;
+   }
+
+    .cal2{
+     display: block;
+    }
+    .cal2 .cont-c{
+    width: 100%;
+    margin-left: 0%;
+   }
+   .cal2 .img-c{
+    width: 100%;
+    margin-right: 0%;
+   }
+  }
