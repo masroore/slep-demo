@@ -41,13 +41,13 @@
                             <button class="btn btn-primary px-4" type="submit" style = "width:100%">{{ __('Iniciar sesión') }}</button>
                         </div>
                       </div>
-                    </form><br>
+                      <br>
                       <div class="col-12 text-center">                                                    
                           <a href="{{ route('password.request') }}" style = "width:100%">{{ __('Restablecer contraseña') }}</a>
                       </div>
                     
                     
-                    <p class="mt-3 mb-2 text-center lead">-o-</p>
+                    <p class="mt-0 mb-1 text-center lead">-o-</p>
                     
                     <div id="tabla_filter" class="rrssButtonGroup">
                       <!--div class="facebookButton">
@@ -56,11 +56,13 @@
                         </a>
                       </div><br-->
                       <div class="googleButton">
-                      <a href="{{url('login/google')}}" class="btn btn-danger" style = "width:100%"> <svg class="c-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
-                      {{ __('Iniciar sesión con Google') }}
-                        </a>
+                        <button class="btn btn-danger px-4" type="submit" style = "width:100%">
+                          <svg class="c-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
+                          {{ __('Iniciar sesión con Google') }}
+                        </button>
                       </div>
                     </div>
+                    </form>
 
               </div>
             </div>

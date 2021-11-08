@@ -215,10 +215,10 @@ class MenusTableSeeder extends Seeder
         //$id = $this->beginDropdown('user,admin', 'Motor de Búsqueda', 'cil-search'); //cib-twitter
         //$this->addTranslation('pl', 'Tablice', $id);
 
-            $id = $this->insertLink('user,admin,gestor', 'Mantenedores','/mantenedores', 'cil-search');
+            $id = $this->insertLink('user,admin,gestor', 'Mantenedores de Datos','/mantenedores', 'cil-columns');
             $this->addTranslation('pl', 'Mantenedores', $id);
 
-            $id = $this->insertLink('user,admin,gestor', 'Reportes','/reportes', 'cil-search');
+            $id = $this->insertLink('user,admin,gestor', 'Gastos por Establecimiento','/reportes', 'cil-chart');
             $this->addTranslation('pl', 'Reportes', $id);
 
 
