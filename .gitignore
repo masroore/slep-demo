@@ -11,7 +11,6 @@ npm-debug.log
 yarn-error.log
 composer.phar
 .env
-/config/app.php
 
 # release
 /coreui-pro-laravel-admin-template*.zip
