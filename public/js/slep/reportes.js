@@ -99,14 +99,14 @@ function loadGraph(){
     mainChart = new Chart(document.getElementById('reporte-chart'), {
         type: 'bar',
         data: {
-          labels: ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre'],
+          labels: ['Escuela Básica Común Hospital','Colegio Biobío','Centro Integrado de Educación Especial','Escuela Nuevo Horizontes','Escuela Especial Chile España','Liceo de Niñas','Escuela Parvularia Blanca Estela','Colegio Marina de Chile'],
           datasets: [{
             label: 'Total del Mes',
             backgroundColor: coreui.Utils.hexToRgba(coreui.Utils.getStyle('--info'), 10),
             borderColor: coreui.Utils.getStyle('--info'),
             pointHoverBackgroundColor: '#fff',
             borderWidth: 2,
-            data: [122941252,84629435,325562333,627868889,323564363,424414323,786967976,315554555,385677766,372551644,211553000]
+            data: [122941252,84629435,325562333,627868889,323564363,424414323,315554555,211553000]
           }]
         },
         options: {
@@ -124,8 +124,8 @@ function loadGraph(){
               ticks: {
                 beginAtZero: true,
                 maxTicksLimit: 5,
-                stepSize: Math.ceil(786967976 / 5),
-                max: 786967976
+                stepSize: Math.ceil(627868889 / 5),
+                max: 627868889
               }
             }]
           },
